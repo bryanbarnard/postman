@@ -1,0 +1,46 @@
+{
+	"id": "49b5569a-9ae7-daac-ba5c-5dd48d4a2933",
+	"name": "Twilio",
+	"description": "Twilio Test API Calls",
+	"order": [
+		"8ad759bd-9253-8f78-cd44-cac4697f6aa8"
+	],
+	"folders": [],
+	"timestamp": 1397532812080,
+	"synced": false,
+	"requests": [
+		{
+			"id": "8ad759bd-9253-8f78-cd44-cac4697f6aa8",
+			"headers": "Authorization: Basic QUNhMTU0NDAxYTAyOTI3NzY1MjJkNmEzZjg4NGI3YjU3OTozYjIyODY4Nzg3NjkxZDRiY2M3ZmFlZjMzMjE1ZjQzZQ==\nHost: api.twilio.com\n",
+			"url": "https://api.twilio.com/2010-04-01/Accounts/ACa154401a0292776522d6a3f884b7b579/Messages.json",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "To",
+					"value": "+13125501242",
+					"type": "text"
+				},
+				{
+					"key": "From",
+					"value": "+13126983252",
+					"type": "text"
+				},
+				{
+					"key": "Body",
+					"value": "test from postman",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1397534916446,
+			"name": "Send Message",
+			"description": "Send a Message",
+			"collectionId": "49b5569a-9ae7-daac-ba5c-5dd48d4a2933",
+			"responses": [],
+			"synced": false
+		}
+	]
+}
